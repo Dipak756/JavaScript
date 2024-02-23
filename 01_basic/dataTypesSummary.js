@@ -14,3 +14,23 @@
 
 //typeof Array and Objects are function
 // typeof Functions are function objects
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+let myName = "Dipak"
+myAnotherName = myName
+myAnotherName = "Dip"
+
+console.log(myName)
+console.log(myAnotherName)
+
+let userOne = {
+    email : "user@gmail.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email =  "Dipak@gmail.com"
+console.log(userOne.email)
+console.log(userTwo.email)
